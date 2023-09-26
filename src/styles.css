@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.App {
+}
+.all-pages {
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  padding: 2rem;
+}
+.nav-bar {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+  height: 65px;
+  font-size: 17px;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.navLink > a {
+  text-decoration: none;
+  color: #6c5fe4;
+  font-weight: bolder;
+  transition: all 0.5s;
+}
+.navLink > a:hover {
+  font-weight: bold;
+}
+.active {
+  font-size: 15px;
+  color: #3f2edc;
+}
+.product-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  width: 300px;
+  min-height: 300px;
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+.product-card:hover {
+  transform: scale(1.1);
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.btn > button {
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #6c5fe4;
+  transition: 1s;
+  cursor: pointer;
+}
+.btn > button:hover {
+  background: #fff;
+  color: #6c5fe4;
+  border: 1px solid #6c5fe4;
+}
